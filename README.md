@@ -26,10 +26,10 @@ yarn
 After should be edited `.env` file (e.g. for DB connection), look at `.env.example` for examples
 
 ```
-php artisan migrate --seed --seeder=InitialSeeder
+php artisan migrate --seed --seeder=DatabaseSeeder
 ```
 
-App will not start without seeding of InitialSeeder
+App will not start without seeding of DatabaseSeeder
 
 After seeding it, run `php artisan cattr:make:admin` and you will be able to login with following credentials
 ```
