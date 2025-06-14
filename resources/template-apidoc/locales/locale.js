@@ -39,6 +39,7 @@ define([
     };
 
     function setLanguage(language) {
+        console.log(language);
         locale = locales[language];
     }
 
