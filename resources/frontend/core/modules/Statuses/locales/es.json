@@ -1,0 +1,13 @@
+{
+    "navigation": {
+        "statuses": "Estados"
+    },
+    "statuses": {
+        "grid-title": "Estados",
+        "crud-title": "Estado"
+    },
+    "field": {
+        "order": "Orden",
+        "close_task": "Cerrar tarea"
+    }
+}

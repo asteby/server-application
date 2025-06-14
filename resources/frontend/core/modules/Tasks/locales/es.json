@@ -1,0 +1,94 @@
+{
+  "navigation": {
+    "tasks": "Tareas"
+  },
+  "tasks": {
+    "grid-title": "Tareas",
+    "crud-title": "Tarea",
+    "source": {
+      "internal": "Interno"
+    },
+    "priority": {
+      "low": "Bajo",
+      "normal": "Normal",
+      "high": "Alto"
+    },
+    "activity": {
+      "task_change": "{user} cambió {field} {date}",
+      "task_change_to": "{user} cambió {field} a {value} {date}",
+      "task_change_users": "{user} asignó la tarea a {value} {date}",
+      "task_unassigned_users": "{user} eliminó todos los asistentes {date}",
+      "show_history": "Mostrar",
+      "hide_history": "Ocultar",
+      "add_comment": "Agregar comentario",
+      "show_changes": "Mostrar cambios",
+      "marked_as_important": "{user} Marcar la tarea como importante {date}",
+      "marked_as_non_important": "{user} Desmarcar la importancia de la tarea {date}"
+    },
+    "projects": "Proyectos",
+    "users": "Usuarios",
+    "spent_by_user": "Tiempo gastado por usuario",
+    "status": "Estado",
+    "save_comment": "Guardar comentario",
+    "cancel": "Cancelar",
+    "edited": "Editado",
+    "sort_or_filter": "Ordenar o Filtrar",
+    "newest_first": "Nuevo primero",
+    "oldest_first": "Antiguo primero",
+    "show_all_activity": "Mostrar toda la actividad",
+    "show_comments_only": "Mostrar solo comentarios",
+    "show_history_only": "Mostrar solo historial",
+    "statuses": {
+      "any": "Cualquiera",
+      "open": "Abierta",
+      "closed": "Cerrada"
+    },
+    "unassigned": "Sin asignar",
+    "unset_start_date": "No establecido",
+    "unset_due_date": "No establecido",
+    "due_date--overdue": "Vencido",
+    "unset_estimate": "No establecido",
+    "estimate--overtime": "Overtime",
+    "unset_phase": "No establecido",
+    "important": "Importante",
+    "not_important": "No importante",
+    "relations": {
+      "title": "Relaciones",
+      "for": "Relaciones para",
+      "follows": "Sigue",
+      "precedes": "Precede",
+      "loading": "Cargando tareas",
+      "no_task_found": "No tareas encontradas para {query}",
+      "type_to_search": "Comienza a escribir para buscar una tarea",
+      "select_task": "Seleccionar tarea",
+      "type": "Tipo de relación"
+    }
+  },
+  "field": {
+    "source": "Origen",
+    "estimate": "Tiempo estimado",
+    "start_date": "Fecha de inicio",
+    "due_date": "Fecha de vencimiento",
+    "hour_short": "h",
+    "minute_short": "m",
+    "phase": "Fase",
+    "attachments": "Archivos"
+  },
+  "attachments": {
+    "status": "Estado",
+    "name": "Nombre",
+    "size": "Tamaño",
+    "upload": "Subir",
+    "is_good": "Es correcto",
+    "is_bad": "No coincide",
+    "is_not_attached": "No adjuntado",
+    "is_processing": "Calculando hash",
+    "upload_queue": "Cola de subida",
+    "create_tmp_url_for": "Crear URL temporal para:",
+    "tmp_url_created":  "URL temporal creada",
+    "copied_to_clipboard": "Copiado al portapapeles"
+  },
+  "control": {
+    "kanban-board": "Kanban"
+  }
+}

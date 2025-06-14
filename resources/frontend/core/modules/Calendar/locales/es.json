@@ -1,0 +1,44 @@
+{
+    "navigation": {
+      "calendar": "Calendario"
+    },
+    "calendar": {
+      "days": {
+        "monday": "Lunes",
+        "tuesday": "Martes",
+        "wednesday": "Miercoles",
+        "thursday": "Jueves",
+        "friday": "Viernes",
+        "saturday": "Sabado",
+        "sunday": "Domingo"
+      },
+      "months": {
+        "january": "Enero",
+        "february": "Febrero",
+        "april": "Abril",
+        "march": "Marzo",
+        "may": "Mayo",
+        "june": "Junio",
+        "july": "Jul.",
+        "august": "Aug.",
+        "september": "Sep.",
+        "october": "Oct.",
+        "november": "Nov.",
+        "december": "Dec."
+      },
+      "task": {
+        "name": "Nombre",
+        "status": "Estado",
+        "priority": "Prioridad",
+        "estimate": "Estimación",
+        "total_spent_time": "Tiempo total invertido",
+        "start_date": "Fecha de inicio",
+        "due_date": "Fecha de vencimiento",
+        "forecast_completion_date": "Fecha de finalización prevista"
+      },
+      "tasks": "Tareas {date}",
+      "show_all": "Mostrar todas",
+      "show_first": "Mostrar las primeras 5 tareas"
+    }
+  }
+  

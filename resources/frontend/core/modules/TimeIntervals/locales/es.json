@@ -1,0 +1,9 @@
+{
+  "time_intervals": {
+    "crud_title": "Agregar intervalo de tiempo",
+    "task_select": {
+      "placeholder": "Escribe al menos 3 caracteres para buscar",
+      "no_options": "Lo siento, no hay opciones coincidentes."
+    }
+  }
+}

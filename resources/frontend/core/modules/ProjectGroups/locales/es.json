@@ -1,0 +1,21 @@
+{
+  "groups": {
+    "grid-title": "Grupos",
+    "crud-title": "Grupo"
+  },
+  "navigation": {
+    "project-groups": "Por grupos"
+  },
+  "message": {
+    "loading_projects": "Cargando proyectos",
+    "project_search_input_placeholder": "escribir para buscar proyecto",
+    "group_search_input_placeholder": "escribir para buscar proyecto"
+  },
+  "field": {
+    "project": "Proyecto",
+    "members": "Miembros",
+    "amount_of_tasks": "Cantidad de tareas",
+    "parent_group": "Grupo padre",
+    "loading_groups": "Cargando grupos"
+  }
+}

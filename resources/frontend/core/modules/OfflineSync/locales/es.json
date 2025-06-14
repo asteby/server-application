@@ -1,0 +1,22 @@
+{
+  "navigation": {
+    "offline_sync": "Sincronización Offline"
+  },
+  "offline_sync": {
+    "projects_and_tasks": "Proyectos y Tareas",
+    "intervals": "Intervalos",
+    "screenshots": "Capturas de pantalla",
+    "intervals_file": "Archivo de intervalos",
+    "screenshots_file": "Archivo de capturas de pantalla",
+    "import": "Importar",
+    "export": "Exportar",
+    "added_intervals": "Intervalos agregados",
+    "added_screenshots": "Capturas de pantalla agregadas",
+    "user": "Usuario",
+    "task_id": "Tarea",
+    "start_at":  "Inicio",
+    "end_at": "Fin",
+    "result":  "Resultado",
+    "total_time": "Duración"
+  }
+}

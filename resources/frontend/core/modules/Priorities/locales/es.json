@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "priorities": "Prioridades"
+  },
+  "priorities": {
+    "grid-title": "Prioridades",
+    "crud-title": "Prioridad"
+  },
+  "field": {
+    "color": "Color"
+  }
+}

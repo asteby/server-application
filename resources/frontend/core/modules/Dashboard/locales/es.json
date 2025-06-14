@@ -1,0 +1,24 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard"
+  },
+  "dashboard": {
+    "timeline": "Línea de tiempo",
+    "team": "Equipo",
+    "user": "Usuario",
+    "worked": "Trabajado",
+    "total_time": "Tiempo total"
+  },
+  "field": {
+    "task_name": "Nombre",
+    "task_description": "Descripción"
+  },
+  "control": {
+    "add_new_task": "Agregar nueva tarea",
+    "edit_intervals": "Cambiar tarea"
+  },
+  "projects": {
+    "show-more": "Mostrar más",
+    "show-less": "Mostrar menos"
+  }
+}

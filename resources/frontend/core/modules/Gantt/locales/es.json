@@ -1,0 +1,27 @@
+{
+  "navigation" : {
+    "gantt" : "Gantt"
+  },
+  "gantt" : {
+    "dimensions" : {
+      "index" : "Index",
+      "id" : "Id",
+      "task_name" : "Nombre",
+      "estimate" : "Tiempo estimado",
+      "total_spent_time": "Tiempo total invertido",
+      "start_date" : "Fecha de inicio",
+      "due_date" : "Fecha de vencimiento",
+      "name" : "Nombre",
+      "first_task_id" : "Primera tarea",
+      "last_task_id" : "Ultima tarea",
+      "status": "Estado",
+      "priority": "Prioridad"
+    }
+  },
+  "field" : {
+  },
+  "control" : {
+  },
+  "projects" : {
+  }
+}

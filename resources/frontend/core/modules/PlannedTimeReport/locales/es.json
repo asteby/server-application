@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "planned-time-report": "Reporte de tiempo planificado"
+  },
+  "planned-time-report": {
+    "tasks": "Tareas",
+    "estimate": "Estimación",
+    "spent": "Gastado",
+    "productivity": "Productividad",
+    "report_date": "Reporte creado el: {0}"
+  }
+}

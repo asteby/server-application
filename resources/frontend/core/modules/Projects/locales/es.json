@@ -1,0 +1,49 @@
+{
+  "navigation": {
+    "projects": "Lista"
+  },
+  "projects": {
+    "grid-title": "Proyectos",
+    "crud-title": "Proyecto",
+    "amount_of_tasks": "No tareas | 1 tarea | {count} tareas",
+    "project_members": "Miembros del proyecto",
+    "gantt": "Gantt",
+    "members": "Miembros",
+    "enable_status": "Habilitar estado en proyecto",
+    "override_color": "Sobrescribir color",
+    "tasks": "Tareas",
+    "kanban": "Kanban",
+    "project_tasks": "Tareas del proyecto",
+    "add_task": "Agregar tarea"
+  },
+  "field": {
+    "default_priority": "Prioridad predeterminada",
+    "statuses": "Estados",
+    "due_date": "Fecha de vencimiento",
+    "history": "Historial",
+    "project_id": "Proyecto",
+    "phases": "Fases",
+    "add_phase": "Agregar",
+    "priority_id": "Prioridad",
+    "status_id": "Estado",
+    "comments": "Comentarios",
+    "project_phase_id": "Fase",
+    "group": "Grupo",
+    "no_group_selected": "No grupo seleccionado",
+    "loading_groups": "Cargando grupos",
+    "no_groups_found": "No grupos {query} encontrados",
+    "fast_create_group": "Crear un grupo {query}",
+    "to_create_group": "Crear en una nueva ventana",
+    "type_to_search_for_group": "Comienza a escribir para buscar un grupo."
+  },
+  "control": {
+    "task-list": "Lista de tareas",
+    "project-list": "Lista de proyectos",
+    "of": "de"
+  },
+  "project-roles-description": {
+    "auditor": "Acceso de lectura a los proyectos asignados, crear y ver todas las tareas del proyecto asignado, ver todas las actividades de los usuarios del proyecto",
+    "manager": "Acceso completo a los proyectos asignados, acceso completo a las tareas del proyecto, ver todas las actividades de los usuarios del proyecto",
+    "user": "Acceso de lectura a los proyectos asignados, ver todas las tareas del proyecto asignado, ver actividad personal"
+  }
+}

@@ -1,0 +1,141 @@
+{
+    "navigation": {
+        "universal-report": "Reporte universal"
+    },
+    "universal-report": {
+        "warning": {
+            "title": "Error",
+            "empty": "Llena todos los campos obligatorios"
+        },
+        "no-data-available":"No hay datos disponibles para el período especificado para este objeto de datos.",
+        "object-not-participate":"Quizás este objeto no participó en eventos durante el período especificado.",
+        "generate": "Generar",
+        "remove": "Eliminar",
+        "save": "Guardar",
+        "base": "Campos base",
+        "users": "Campos de usuario",
+        "projects": "Campos de proyecto",
+        "calculations": "Campos de tiempo",
+        "report_timezone": "Zona horaria del reporte: {0}",
+        "no-personal-reports": "No hay reportes personales.",
+        "no-company-reports": "No hay reportes de la empresa.",
+        "сreate-select-existing-report": "Crear un nuevo o seleccionar un reporte existente.",
+        "personal-reports": "Reportes personales",
+        "company-reports": "Reportes de la empresa",
+        "tasks": "Tareas",
+        "estimate": "Estimación",
+        "spent": "Gastado",
+        "productivity": "Productividad",
+        "report_date": "Reporte creado el: {0}",
+        "data_for": "Datos para: {0} - {1}",
+        "create_new_report": "Crear un nuevo reporte",
+        "user_information": "Información del usuario",
+        "project_information": "Información del proyecto",
+        "task_information": "Información de la tarea",
+        "worked_by_day": "Trabajado por día:",
+        "create-company": "Crear para la empresa",
+        "create-personal": "Crear personal"
+    },
+    "field": {
+        "id": "ID",
+        "name": "Nombre del reporte",
+        "data-objects": {
+            "user": { "1": "Usuarios", "2": "Configuración de columnas del reporte", "3": "Configuración de columnas de tiempo" },
+            "project": { "1": "Proyecto", "2": "Configuración de columnas del reporte", "3": "Configuración de columnas de tiempo" },
+            "task": { "1": "Tareas", "2": "Configuración de columnas del reporte", "3": "Configuración de columnas de tiempo" }
+        },
+        "fields": {
+            "user": {
+                "base": {
+                    "name": "Nombre del usuario",
+                    "email": "Correo electrónico del usuario",
+                    "full_name": "Nombre completo del usuario"
+                },
+                "tasks": {
+                    "task_name": "Nombre de la tarea",
+                    "priority": "Prioridad",
+                    "status": "Estado",
+                    "due_date": "Fecha de vencimiento",
+                    "estimate": "Estimación",
+                    "description": "Descripción"
+                },
+                "projects": {
+                    "name": "Nombre del proyecto",
+                    "created_at": "Fecha de creación",
+                    "description": "Descripción",
+                    "important": "Importante"
+                },
+                "calculations": {
+                    "total_spent_time": "Tiempo total invertido",
+                    "total_spent_time_by_day": "Tiempo total invertido por día"
+                },
+                "charts": {
+                    "total_spent_time_day": "Total horas",
+                    "total_spent_time_day_and_tasks": "Horas de las tareas",
+                    "total_spent_time_day_and_projects": "Horas de los proyectos"
+                }
+            },
+            "project": {
+                "base": {
+                    "name": "Nombre del proyecto",
+                    "created_at": "Fecha de creación",
+                    "description": "Descripción",
+                    "important": "Importante"
+                },
+                "tasks": {
+                    "task_name": "Nombre de la tarea",
+                    "priority": "Prioridad",
+                    "status": "Estado",
+                    "due_date": "Fecha de vencimiento",
+                    "estimate": "Estimación",
+                    "description": "Descripción"
+                },
+                "users": {
+                    "full_name": "Nombre del usuario",
+                    "email": "Correo electrónico del usuario"
+                },
+                "calculations": {
+                    "total_spent_time": "Tiempo total invertido",
+                    "total_spent_time_by_day": "Tiempo total invertido por día",
+                    "total_spent_time_by_user": "Tiempo total invertido por usuario",
+                    "total_spent_time_by_day_and_user": "Tiempo total del usuario invertido por día"
+                },
+                "charts": {
+                    "total_spent_time_day": "Trabajado por todos los usuarios",
+                    "total_spent_time_day_and_users_separately": "Trabajado por todos los usuarios individualmente"
+                }
+            },
+            "task": {
+                "base": {
+                    "task_name": "Nombre de la tarea",
+                    "priority": "Prioridad",
+                    "status": "Estado",
+                    "due_date": "Fecha de vencimiento",
+                    "estimate": "Estimación",
+                    "description": "Descripción"
+                },
+                "users": {
+                    "name": "Nombre del usuario",
+                    "email": "Correo electrónico del usuario",
+                    "full_name": "Nombre completo del usuario"
+                },
+                "projects": {
+                    "name": "Nombre del proyecto",
+                    "created_at": "Fecha de creación",
+                    "description": "Descripción",
+                    "important": "Importante"
+                },
+                "calculations": {
+                    "total_spent_time": "Tiempo total invertido",
+                    "total_spent_time_by_day": "Tiempo total invertido por día",
+                    "total_spent_time_by_user": "Tiempo total invertido por usuario",
+                    "total_spent_time_by_day_and_user": "Tiempo total del usuario invertido por día"
+                },
+                "charts": {
+                    "total_spent_time_day": "Trabajado por todos los usuarios",
+                    "total_spent_time_day_users_separately": "Trabajado por todos los usuarios individualmente"
+                }
+            }
+        }
+    }
+}

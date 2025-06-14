@@ -1,0 +1,8 @@
+{
+  "navigation": {
+    "project-report": "Reporte de proyecto"
+  },
+  "project-report": {
+    "report_timezone": "Reporte creado en: {0}"
+  }
+}

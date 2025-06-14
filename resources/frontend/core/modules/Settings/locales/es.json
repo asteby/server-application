@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "company_language": "Idioma de la empresa",
+    "color_interval": {
+      "label": "Progreso del día de trabajo",
+      "notification": {
+        "gt_100": "El valor no puede ser mayor que 100",
+        "interval_already_in_use": "Este intervalo ya está en uso"
+      }
+    }
+  }
+}

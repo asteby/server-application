@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "users": "Usuarios"
+  },
+  "users": {
+    "grid-title": "Usuarios",
+    "crud-title": "Usuario",
+    "statuses": {
+      "any": "Cualquiera",
+      "active": "Activo",
+      "disabled": "Deshabilitado"
+    },
+    "role": {
+      "name": "Rol"
+    },
+    "screenshots_state": {
+      "optional_will_be_overridden": "Da al usuario la posibilidad de elección. Por defecto se establece \"Requerido\""
+    }
+  },
+  "languages": {
+    "default": "Por defecto",
+    "en": "English",
+    "ru": "Русский",
+    "dk": "Danish",
+    "es": "Español"
+  }
+}
