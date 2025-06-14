@@ -2,6 +2,7 @@ const state = {
     langList: {
         en: 'English',
         ru: 'Русский',
+        es: 'Español',
         // dk: 'Danish', TODO Currently disabled because we dont have DK translations
     },
 };
