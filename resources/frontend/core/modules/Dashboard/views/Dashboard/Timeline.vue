@@ -330,7 +330,7 @@
 
             &.active {
                 color: #ffffff;
-                background: #2e2ef9;
+                background: #007c72;
             }
         }
     }

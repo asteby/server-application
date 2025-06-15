@@ -59,7 +59,7 @@
         justify-content: center;
 
         &::v-deep .at-btn__text {
-            color: #2e2ef9;
+            color: #007c72;
             font-size: 25px;
         }
     }

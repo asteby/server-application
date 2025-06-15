@@ -40,7 +40,7 @@
             }
 
             .router-link-active {
-                color: #2e2ef9;
+                color: #007c72;
             }
         }
     }

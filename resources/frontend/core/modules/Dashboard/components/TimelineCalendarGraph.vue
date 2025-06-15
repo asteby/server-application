@@ -72,7 +72,7 @@
                                 'font-family': 'Nunito, sans-serif',
                                 'font-size': 10,
                                 'font-weight': 600,
-                                fill: '#2E2EF9',
+                                fill: '#007c72',
                             });
                     }
 
@@ -133,7 +133,7 @@
                                     (row + 1) * rowHeight + headerHeight - 2,
                                 )
                                 .stroke({
-                                    color: '#2E2EF9',
+                                    color: '#007c72',
                                     width: 3,
                                 });
                             squaresGroup.add(line);
@@ -145,7 +145,7 @@
                                 'font-family': 'Nunito, sans-serif',
                                 'font-size': 12,
                                 'font-weight': isInSelection ? 600 : 400,
-                                fill: isInSelection ? '#2E2EF9' : '#868495',
+                                fill: isInSelection ? '#007c72' : '#868495',
                             });
 
                         const dateKey = date.format('YYYY-MM-DD');

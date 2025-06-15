@@ -396,7 +396,7 @@
 
             &.active {
                 color: #ffffff;
-                background: #2e2ef9;
+                background: #007c72;
             }
         }
     }
@@ -443,7 +443,7 @@
         width: 40px;
 
         &::v-deep .at-btn__text {
-            color: #2e2ef9;
+            color: #007c72;
             font-size: 25px;
         }
     }

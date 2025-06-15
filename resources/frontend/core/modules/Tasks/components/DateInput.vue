@@ -202,7 +202,7 @@
 
                 & > div {
                     display: inline-block;
-                    background: #2e2ef9;
+                    background: #007c72;
                     color: #ffffff;
                     border-radius: 7px;
                     width: 25px;
@@ -235,7 +235,7 @@
         }
 
         .mx-btn:hover {
-            color: #2e2ef9;
+            color: #007c72;
         }
 
         .mx-table .cell.today {

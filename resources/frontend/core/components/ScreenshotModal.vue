@@ -293,7 +293,7 @@
 
         &-value,
         &-value a {
-            color: #2e2ef9;
+            color: #007c72;
         }
 
         &-duration {

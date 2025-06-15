@@ -357,10 +357,10 @@
                 width: 50%;
 
                 &--active {
-                    color: #2e2ef9;
+                    color: #007c72;
 
                     &::after {
-                        background-color: #2e2ef9;
+                        background-color: #007c72;
                     }
                 }
             }

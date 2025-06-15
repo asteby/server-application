@@ -244,7 +244,7 @@
         &__active {
             background: #f4f4ff;
             color: #151941;
-            border-left: 3px solid #2e2ef9;
+            border-left: 3px solid #007c72;
 
             &::v-deep {
                 .at-progress-bar__wraper {

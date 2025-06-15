@@ -565,7 +565,7 @@
         }
 
         &::-webkit-scrollbar-thumb {
-            background: #2e2ef9;
+            background: #007c72;
             border-radius: 3px;
         }
     }

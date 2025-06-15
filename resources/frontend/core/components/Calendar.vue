@@ -437,7 +437,7 @@
         position: absolute;
         top: 0;
         right: 2em;
-        color: #2e2ef9;
+        color: #007c72;
         line-height: 40px;
         pointer-events: none;
     }
@@ -471,12 +471,12 @@
         }
 
         .fa-calendar {
-            color: #2e2ef9;
+            color: #007c72;
         }
 
         .previous,
         .next {
-            color: #2e2ef9;
+            color: #007c72;
 
             display: flex;
             flex-flow: row nowrap;
@@ -535,11 +535,11 @@
             text-align: center;
 
             &--active {
-                color: #2e2ef9;
+                color: #007c72;
             }
 
             &::after {
-                background-color: #2e2ef9;
+                background-color: #007c72;
             }
         }
 
@@ -606,7 +606,7 @@
 
                 & > div {
                     display: inline-block;
-                    background: #2e2ef9;
+                    background: #007c72;
                     color: #ffffff;
                     border-radius: 7px;
                     width: 25px;
@@ -669,7 +669,7 @@
                 .mx-week-number + .cell > div,
                 .cell:last-child > div {
                     display: inline-block;
-                    background: #2e2ef9;
+                    background: #007c72;
                     color: #ffffff;
                     border-radius: 7px;
                     width: 25px;
@@ -702,7 +702,7 @@
         }
 
         .mx-btn:hover {
-            color: #2e2ef9;
+            color: #007c72;
         }
 
         .mx-table .cell.today {
