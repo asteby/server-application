@@ -1034,6 +1034,7 @@ export function init(context, router) {
     context.addLocalizationData({
         en: require('./locales/en'),
         ru: require('./locales/ru'),
+        es: require('./locales/es'),
     });
 
     context.addNavbarEntry({

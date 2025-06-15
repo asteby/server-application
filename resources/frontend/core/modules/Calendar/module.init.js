@@ -19,6 +19,7 @@ export function init(context) {
     context.addLocalizationData({
         en: require('./locales/en'),
         ru: require('./locales/ru'),
+        es: require('./locales/es'),
     });
 
     return context;
