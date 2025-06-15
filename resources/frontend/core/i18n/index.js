@@ -30,6 +30,7 @@ Vue.use(VueI18n);
 let messages = {
     en: require('./locales/en'),
     ru: require('./locales/ru'),
+    es: require('./locales/es'),
 };
 
 let pluralizationRules = {};
