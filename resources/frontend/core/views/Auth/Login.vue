@@ -7,7 +7,7 @@
                         <div class="static-message">
                             <div class="logo"></div>
                         </div>
-                        <h1 class="login__title">Cattr</h1>
+                        <h1 class="login__title">TrackVisor</h1>
                     </div>
                     <div>
                         <at-alert

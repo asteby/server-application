@@ -1,4 +1,4 @@
-const slogans = ['Cattr - a free open source time tracker', 'Manage your time with ease'];
+const slogans = ['Tu aliado en la gestión del tiempo', 'Manage your time with ease'];
 
 const getRandomInt = max => {
     return Math.floor(Math.random() * Math.floor(max));
