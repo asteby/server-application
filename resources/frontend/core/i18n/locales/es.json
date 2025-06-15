@@ -1,0 +1,462 @@
+{
+  "navigation": {
+    "about": "Acerca de",
+    "settings": "Configuración",
+    "client-login": "Inicio de sesión de la aplicación de escritorio",
+    "company_settings": "Configuración de la empresa",
+    "logout": "Cerrar sesión",
+    "dropdown": {
+      "reports": "Informes",
+      "projects": "Proyectos"
+    }
+  },
+  "setup": {
+    "process": {
+      "info_without_docker": "Por favor, cambie la configuración de su servidor según los ejemplos a continuación. Nota: debe reemplazar las rutas con la ruta a su instalación de Cattr.",
+      "important_information": "Información importante",
+      "title_supervisor": "Configuración del supervisor",
+      "title_cron": "Configuración de Cron",
+      "end_install": "Comience a usar Cattr",
+      "button_process": "Instalando",
+      "config_confirmation": "Los archivos de configuración requeridos se han modificado correctamente",
+      "title": "Instalación de Cattr",
+      "subtitle": "Por favor, no cierre ni recargue esta pestaña hasta que se complete la instalación"
+    },
+    "step_description": {
+      "welcome": "Bienvenido",
+      "database_settings": "Configuración de la base de datos",
+      "mail_settings": "Configuración de correo",
+      "company_settings": "Configuración de la empresa",
+      "account": "Crear cuenta",
+      "permission": "Permisos",
+      "backend_ping": "Conexión al servidor backend",
+      "recaptcha": "Configuración de reCAPTCHA"
+    },
+    "buttons": {
+      "next": "Siguiente",
+      "back": "Atrás",
+      "complete": "Completar",
+      "update": "Actualizar",
+      "connect": "Conectar a la base de datos",
+      "checked": "Habilitado",
+      "unchecked": "Deshabilitado"
+    },
+    "header": {
+      "welcome": {
+        "title": "Bienvenido a Cattr",
+        "subtitle": "Esta es una configuración rápida",
+        "language": "Por favor, seleccione el idioma de su empresa"
+      },
+      "backend_ping": {
+        "title": "Conexión al servidor backend",
+        "subtitle": "Verificando la conexión con su servidor backend de Cattr",
+        "success": "Éxito",
+        "error": "Conexión rechazada",
+        "process": "Procesando",
+        "status": "Estado del backend",
+        "server_url": "Intentando encontrar el servidor en: {serverUrl}",
+        "wrong_url": "¿URL incorrecta?",
+        "building_when": "La URL debe configurarse al compilar el frontend",
+        "read_more": "Puede leer más en {0}",
+        "documentation": "documentación"
+      },
+      "database_settings": {
+        "title": "Configuración de la base de datos",
+        "subtitle": "Configurar MySQL",
+        "success": "Éxito",
+        "error": "Parámetros incorrectos",
+        "process": "Esperando proceso",
+        "host": "Host",
+        "database": "Nombre de la base de datos",
+        "username": "Nombre de usuario",
+        "password": "Contraseña",
+        "status": "Estado de la base de datos",
+        "docker_title": "Cattr se ejecuta dentro del contenedor Docker oficial",
+        "docker_subtitle": "No necesita ajustar la configuración de conexión a la base de datos"
+      },
+      "mail_settings": {
+        "title": "Configuración de correo",
+        "subtitle": "Configurar el correo",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "host": "Dirección del servidor",
+        "port": "Puerto",
+        "encryption": "Cifrado"
+      },
+      "company_settings": {
+        "title": "Configuración de la empresa",
+        "subtitle": "Establecer configuración de la empresa",
+        "language": "Idioma",
+        "timezone": "Zona horaria"
+      },
+      "account": {
+        "title": "Configuración de cuenta de administrador",
+        "subtitle": "Crear cuenta de administrador",
+        "email": "Correo electrónico",
+        "password": "Contraseña"
+      },
+      "permission": {
+        "title": "Permisos",
+        "subtitle": "Otorgar permisos",
+        "registration_process": "Espere hasta que se complete el proceso de registro",
+        "registration": "Registro"
+      },
+      "recaptcha": {
+        "title": "Configuración de reCAPTCHA",
+        "subtitle": "Conecte reCAPTCHA para proteger las cuentas de usuario de ataques de contraseña",
+        "get_recaptcha": "Obtener claves de reCAPTCHA"
+      }
+    }
+  },
+  "auth": {
+    "submit": "Iniciar sesión",
+    "forgot_password": "¿Olvidó su contraseña?",
+    "message": {
+      "user_not_found": "No podemos encontrar el usuario con las credenciales proporcionadas",
+      "solve_captcha": "Debe resolver un CAPTCHA",
+      "auth_error": "Error de autorización",
+      "data_reset": "Los datos se están eliminando ahora, espere un minuto e intente nuevamente"
+    },
+    "desktop": {
+      "header": "Inicio de sesión de la aplicación de escritorio",
+      "step": "Paso {n}",
+      "step1": "Transferencia de datos",
+      "step2": "Abriendo aplicación",
+      "retry": "Reintentar",
+      "cancel": "Cancelar",
+      "open": "Abrir aplicación",
+      "finish": "Finalizar",
+      "error": "La aplicación de escritorio no está instalada en su PC",
+      "download": "Puede descargarla {0}",
+      "download_button": "aquí"
+    },
+    "switch_to_common": "Iniciar sesión con contraseña",
+    "close": "Cerrar página",
+    "desktop_error": "Error durante la autorización",
+    "desktop_working": "Autorizando"
+  },
+  "reset": {
+    "forgot_password": "¿Olvidó su contraseña?",
+    "reset_password": "Restablecer contraseña",
+    "confirm_password": "Confirmar contraseña",
+    "step": "Paso {n}",
+    "step_description": {
+      "step_1": "Ingrese correo electrónico",
+      "step_2": "Revise su correo",
+      "step_3": "Ingrese nueva contraseña",
+      "step_4": "Disfrute"
+    },
+    "tabs": {
+      "enter_email": {
+        "title": "¿Olvidó su contraseña?",
+        "subtitle": "Ingrese su correo y le enviaremos un enlace para restablecer su contraseña"
+      },
+      "check_email": {
+        "title": "Revise su correo",
+        "subtitle": "Revise su correo y siga el enlace en el mensaje de restablecimiento para completar el proceso"
+      },
+      "new_password": {
+        "title": "Ingrese nueva contraseña",
+        "subtitle": "La contraseña debe tener al menos 6 caracteres"
+      },
+      "success": {
+        "title": "Éxito",
+        "subtitle": "Su contraseña ha sido cambiada exitosamente"
+      }
+    },
+    "page_is_not_available": "Esta página ya no está disponible",
+    "go_away": "Ir a la página de inicio de sesión"
+  },
+  "register": {
+    "title": "Registrarse",
+    "subtitle": "Complete los campos para confirmar su registro",
+    "register_btn": "Crear cuenta",
+    "success_title": "Cuenta creada exitosamente",
+    "success_subtitle": "Vaya a la página de inicio de sesión para acceder a su cuenta"
+  },
+  "settings": {
+    "account": "Cuenta",
+    "general": "General",
+    "language": "Idioma",
+    "company": "Empresa",
+    "company_timezone": "Zona horaria de la empresa"
+  },
+  "control": {
+    "save": "Guardar",
+    "create": "Crear",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Agregar",
+    "yes": "Sí",
+    "no": "No",
+    "back": "Atrás",
+    "submit": "Enviar",
+    "deselect_all": "Deseleccionar todo",
+    "select_all": "Seleccionar todo",
+    "clear_all": "Limpiar todo",
+    "select_all_open": "Seleccionar todos abiertos",
+    "select_all_closed": "Seleccionar todos cerrados",
+    "user_selected": "Ningún usuario seleccionado | 1 usuario seleccionado | {count} usuarios seleccionados",
+    "element_selected": "Ningún elemento seleccionado | 1 elemento seleccionado | {count} elementos seleccionados",
+    "project_selected": "Ningún proyecto seleccionado | 1 proyecto seleccionado | {count} proyectos seleccionados",
+    "project_selected_all": "Todos los proyectos seleccionados",
+    "status_selected": "Ningún estado seleccionado | 1 estado seleccionado | {count} estados seleccionados",
+    "status_selected_all": "Todos los estados seleccionados",
+    "screenshot_state_options": {
+      "required": "Requerido",
+      "optional": "Opcional",
+      "forbidden": "Prohibido"
+    },
+    "day": "Día",
+    "week": "Semana",
+    "month": "Mes",
+    "range": "Rango",
+    "today": "Hoy",
+    "ok": "Aceptar",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "search": "Buscar",
+    "add_time": "Agregar tiempo",
+    "enable": "Habilitar",
+    "disable": "Deshabilitar",
+    "select": "Seleccionar",
+    "cancel": "Cancelar",
+    "reset": "Restablecer",
+    "show_active": "Mostrar tareas activas"
+  },
+  "field": {
+    "password": "Contraseña",
+    "name": "Nombre",
+    "full_name": "Nombre completo",
+    "status": "Estado",
+    "email": "Correo electrónico",
+    "user": "Usuario",
+    "users": "Usuarios",
+    "active": "Activo",
+    "change_password": "Cambiar contraseña",
+    "screenshot": "Captura de pantalla",
+    "screenshots": "Capturas de pantalla",
+    "manual_time": "Tiempo manual",
+    "screenshots_interval": "Intervalo de capturas",
+    "computer_time_popup": "Popup de tiempo de inactividad",
+    "timezone": "Zona horaria",
+    "default_role": "Rol predeterminado",
+    "project_roles": "Roles del proyecto",
+    "task": "Tarea",
+    "tasks": "Tareas",
+    "project": "Proyecto",
+    "projects": "Proyectos",
+    "priority": "Prioridad",
+    "created_at": "Creado",
+    "updated_at": "Última edición",
+    "team": "Equipo",
+    "amount_of_tasks": "Cantidad de tareas",
+    "description": "Descripción",
+    "important": "Importante",
+    "actions": "Acciones",
+    "start_at": "Inicia en",
+    "end_at": "Finaliza en",
+    "expires_at": "Expira en",
+    "role": "Rol",
+    "user_language": "Idioma del usuario",
+    "send_invite": "Enviar invitación",
+    "selected": "Seleccionado",
+    "total": "Total",
+    "total_time": "Tiempo total",
+    "total_spent": "Tiempo total invertido",
+    "time": "Tiempo",
+    "auto_thin": "Limpieza automática de almacenamiento",
+    "screenshots_state": "Habilitar capturas de pantalla",
+    "members": "Miembros",
+    "url": "URL",
+    "efficiency": "Ratio de eficiencia del empleado",
+    "statuses": {
+      "any": "Cualquiera",
+      "active": "Activo",
+      "disabled": "Deshabilitado"
+    },
+    "roles": {
+      "admin": {
+        "name": "Administrador",
+        "description": "Acceso completo a todo"
+      },
+      "manager": {
+        "name": "Gerente",
+        "description": "Acceso completo a tareas, proyectos, capturas y actividad de todos los usuarios"
+      },
+      "auditor": {
+        "name": "Auditor",
+        "description": "Acceso de lectura a proyectos, crear y leer todas las tareas, acceso a la actividad de todos los usuarios"
+      },
+      "user": {
+        "name": "Usuario",
+        "description": "Acceso de lectura a proyectos asignados, crear y ver tareas, ver actividad personal"
+      },
+      "any": "Cualquiera"
+    },
+    "type": "Tipo",
+    "types": {
+      "all": "Todos",
+      "any": "Cualquiera",
+      "employee": "Empleado",
+      "client": "Cliente"
+    },
+    "work_time": "Horas laborales",
+    "notice": "Aviso",
+    "report": "Informe",
+    "minutes": "{value} minutos",
+    "duration": "Duración",
+    "duration_value": "{0} a {1}",
+    "web_and_app_monitoring": "Habilitar monitoreo de aplicaciones",
+    "parent_group": "Grupo padre"
+  },
+  "filter": {
+    "enter-single": "Ingrese {0}",
+    "enter-multiple": "Ingrese {0} o {1}",
+    "fields": {
+      "task_name": "nombre de tarea",
+      "project_name": "nombre de proyecto",
+      "full_name": "nombre completo",
+      "name": "nombre",
+      "email": "correo electrónico",
+      "url": "URL"
+    },
+    "full_name": "Filtrar por nombre completo",
+    "email": "Filtrar por correo electrónico",
+    "task": "Filtrar por nombre de tarea",
+    "project": "Filtrar por nombre de proyecto"
+  },
+  "message": {
+    "no_data": "No hay datos para mostrar",
+    "page_not_found": "La página que buscas no existe",
+    "api_error": "Parece que tenemos problemas temporales, contacte a su administrador :(",
+    "page_forbidden": "Acceso denegado",
+    "field_is_required": "Este campo es obligatorio",
+    "something_went_wrong": "Algo salió mal",
+    "success": "Éxito",
+    "error": "Error",
+    "vulnerable_version": "Estás usando una versión desactualizada, actualiza a la última",
+    "update_version": "Nueva versión disponible",
+    "report_has_been_queued": "El informe ha sido encolado y será enviado a su correo"
+  },
+  "time": {
+    "d": "d",
+    "h": "h",
+    "m": "m",
+    "s": "s"
+  },
+  "tooltip": {
+    "task_important": "Las capturas relacionadas no deben eliminarse automáticamente",
+    "user_change_password": "Obliga a cambiar la contraseña en el primer inicio de sesión",
+    "user_manual_time": "Permitir a los usuarios agregar tiempo manualmente",
+    "user_send_invite": "Enviar credenciales por correo. Si el campo 'Contraseña' está vacío, se enviará una contraseña generada automáticamente",
+    "user_computer_time_popup": "Tiempo de inactividad del usuario (minutos) antes de mostrar el modal",
+    "user_interval_screenshot": "Intervalo de creación de capturas (minutos)",
+    "color_intervals": "Selecciona colores para intervalos de tiempo (0-100%)",
+    "work_time": "Horas laborales mínimas/día",
+    "auto_thin": "Las capturas antiguas se eliminarán automáticamente",
+    "activity_progress": {
+      "not_tracked": "Sin actividad registrada",
+      "overall": "Actividad general: | Actividad general: 1% | Actividad general: {percent}%",
+      "mouse": "Ratón: 0% | Ratón: 1% | Ratón: {percent}%",
+      "keyboard": "Teclado: 0% | Teclado: 1% | Teclado: {percent}%",
+      "just_mouse": "Ratón:",
+      "just_keyboard": "Teclado:"
+    }
+  },
+  "invite": {
+    "resend": "Reenviar invitación"
+  },
+  "about": {
+    "modules": {
+      "name": "Módulo",
+      "version": "Versión",
+      "status": "Estado",
+      "vulnerable": "Vulnerable",
+      "ok": "Actualizado",
+      "outdated": "Desactualizado"
+    },
+    "module_versions": "Versiones de módulos",
+    "module_storage": "Almacenamiento",
+    "no_modules": "Sin módulos instalados",
+    "no_storage": "Sin información de almacenamiento",
+    "storage": {
+      "last_thinning": "Última limpieza",
+      "space": {
+        "left": "Espacio libre",
+        "total": "Espacio total",
+        "used": "Espacio usado"
+      },
+      "screenshots_available": "Puede ser eliminado",
+      "screenshots": "0 capturas | {n} captura | {n} capturas",
+      "thin_unavailable": "Limpieza no disponible",
+      "thin_available": "Limpieza disponible",
+      "thin": "Limpiar espacio"
+    }
+  },
+  "notification": {
+    "save": {
+      "success": {
+        "title": "Éxito",
+        "message": "Guardado correctamente"
+      },
+      "error": {
+        "title": "Error",
+        "message": "Error al guardar"
+      }
+    },
+    "record": {
+      "save": {
+        "success": {
+          "title": "Éxito",
+          "message": "Registro guardado correctamente"
+        }
+      },
+      "delete": {
+        "confirmation": {
+          "title": "¿Eliminar registro?",
+          "message": "¿Seguro que desea eliminar este registro?"
+        },
+        "success": {
+          "title": "Éxito",
+          "message": "Registro eliminado correctamente"
+        },
+        "error": {
+          "title": "Error",
+          "message": "Error al eliminar el informe"
+        }
+      }
+    },
+    "settings": {
+      "save": {
+        "success": {
+          "title": "Éxito",
+          "message": "Configuración guardada correctamente"
+        }
+      }
+    },
+    "screenshot": {
+      "save": {
+        "success": {
+          "title": "Éxito",
+          "message": "Capturas guardadas correctamente"
+        },
+        "error": {
+          "title": "Error",
+          "message": "Error al guardar las capturas"
+        }
+      },
+      "delete": {
+        "success": {
+          "title": "Éxito",
+          "message": "Capturas eliminadas correctamente"
+        },
+        "error": {
+          "title": "Error",
+          "message": "Error al eliminar las capturas"
+        }
+      }
+    }
+  }
+}
