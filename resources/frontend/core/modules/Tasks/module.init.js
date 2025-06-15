@@ -877,7 +877,7 @@ export function init(context, router) {
         'gridData.actionsFilter',
         (h, cell, { item }) => {
             if (typeof item.priority !== 'undefined' && item.priority !== null) {
-                if (/^#6C6CFF$/i.test(item.priority.color)) {
+                if (/^#00b881$/i.test(item.priority.color)) {
                     cell = h('span', { class: 'primary-border' }, [cell]);
                 } else if (/^#FF5569$/i.test(item.priority.color)) {
                     cell = h('span', { class: 'error-border' }, [cell]);
