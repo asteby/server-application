@@ -8,7 +8,7 @@
     <link rel="preconnect" href="/api">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <x:sri.link mix href="/dist/app.css" rel="stylesheet" />
-    <title>Cattr</title>
+    <title>{{ config('app.name') }}</title>
 </head>
 <body>
 <noscript>
