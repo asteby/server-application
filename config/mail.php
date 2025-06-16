@@ -95,7 +95,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'no-reply@cattr.local'),
-        'name' => env('MAIL_FROM_NAME', 'Cattr'),
+        'name' => env('MAIL_FROM_NAME', 'TrackVisor'),
     ],
 
     /*

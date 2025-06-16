@@ -305,7 +305,7 @@ class AuthController extends BaseController
     }
 
     /**
-     * @apiDeprecated Exists only for compatibility with old Cattr client
+     * @apiDeprecated Exists only for compatibility with old TrackVisor client
      * @api            {post} /auth/refresh Refresh
      * @apiDescription Refreshes JWT
      *
@@ -325,7 +325,7 @@ class AuthController extends BaseController
 
     /**
      * @return JsonResponse
-     * @deprecated Exists only for compatibility with old Cattr client
+     * @deprecated Exists only for compatibility with old TrackVisor client
      */
     public function refresh(): JsonResponse
     {

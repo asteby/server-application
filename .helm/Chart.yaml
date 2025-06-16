@@ -1,5 +1,5 @@
 name: cattr-server
-description: A Helm Chart for Cattr Server
+description: A Helm Chart for TrackVisor Server
 version: 0.0.1
 apiVersion: v2
 keywords:

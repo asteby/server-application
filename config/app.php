@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 
 return [
     'screenshots_state' => env('SCREENSHOTS_STATE', ScreenshotsState::ANY->name),
-    'name' => env('APP_NAME', 'Cattr'),
+    'name' => env('APP_NAME', 'TrackVisor'),
     'version' => (string)new Version(),
     'env' => env('APP_ENV', 'local'),
     'debug' => env('APP_DEBUG', false),

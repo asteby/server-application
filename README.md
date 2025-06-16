@@ -1,5 +1,5 @@
-## About Cattr
-Cattr is an open-source time tracking solution, designed to be flawlessly integrated with your infrastructure. 
+## About TrackVisor
+TrackVisor is an open-source time tracking solution, designed to be flawlessly integrated with your infrastructure. 
 Superpowered with features like built-in screenshot capture and activity detection, it's a great instrument to boost 
 your team's performance straight to the top.
 
@@ -14,7 +14,7 @@ your team's performance straight to the top.
 ### Demo
 The demo app is available here: [demo.cattr.app](https://demo.cattr.app) 
 
-## Install Cattr
+## Install TrackVisor
 [Installation manual](https://docs.cattr.app/#/en/getting-started/?id=requirements) on the documentation website.
 
 ```
@@ -55,12 +55,12 @@ composer dumperd
 
 ## Links
 
-https://git.amazingcat.net/cattr/desktop/desktop-application – Cattr Desktop Application. You can also download the built app for
+https://git.amazingcat.net/cattr/desktop/desktop-application – TrackVisor Desktop Application. You can also download the built app for
 any OS from the [official site](https://cattr.app/desktop/).
 
 ### Documentation
 
-You can find the Cattr documentation [on the website](https://docs.cattr.app).
+You can find the TrackVisor documentation [on the website](https://docs.cattr.app).
 
 Checkout the [Getting Started](https://docs.cattr.app/#/en/getting-started/) page for a quick overview.
 

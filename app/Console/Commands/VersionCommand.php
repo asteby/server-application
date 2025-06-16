@@ -21,7 +21,7 @@ class VersionCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Get Cattr version';
+    protected $description = 'Get TrackVisor version';
 
     /**
      * Execute the console command.

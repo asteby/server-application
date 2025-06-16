@@ -12,7 +12,7 @@
 </head>
 <body>
 <noscript>
-    <strong>We're sorry but Cattr doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    <strong>We're sorry but TrackVisor doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
 </noscript>
 <div id="app"></div>
 <x:sri.script mix src="/dist/app.js"></x:sri-script>

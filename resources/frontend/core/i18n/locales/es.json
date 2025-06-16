@@ -12,14 +12,14 @@
   },
   "setup": {
     "process": {
-      "info_without_docker": "Por favor, cambie la configuración de su servidor según los ejemplos a continuación. Nota: debe reemplazar las rutas con la ruta a su instalación de Cattr.",
+      "info_without_docker": "Por favor, cambie la configuración de su servidor según los ejemplos a continuación. Nota: debe reemplazar las rutas con la ruta a su instalación de TrackVisor.",
       "important_information": "Información importante",
       "title_supervisor": "Configuración del supervisor",
       "title_cron": "Configuración de Cron",
-      "end_install": "Comience a usar Cattr",
+      "end_install": "Comience a usar TrackVisor",
       "button_process": "Instalando",
       "config_confirmation": "Los archivos de configuración requeridos se han modificado correctamente",
-      "title": "Instalación de Cattr",
+      "title": "Instalación de TrackVisor",
       "subtitle": "Por favor, no cierre ni recargue esta pestaña hasta que se complete la instalación"
     },
     "step_description": {
@@ -43,13 +43,13 @@
     },
     "header": {
       "welcome": {
-        "title": "Bienvenido a Cattr",
+        "title": "Bienvenido a TrackVisor",
         "subtitle": "Esta es una configuración rápida",
         "language": "Por favor, seleccione el idioma de su empresa"
       },
       "backend_ping": {
         "title": "Conexión al servidor backend",
-        "subtitle": "Verificando la conexión con su servidor backend de Cattr",
+        "subtitle": "Verificando la conexión con su servidor backend de TrackVisor",
         "success": "Éxito",
         "error": "Conexión rechazada",
         "process": "Procesando",
@@ -71,7 +71,7 @@
         "username": "Nombre de usuario",
         "password": "Contraseña",
         "status": "Estado de la base de datos",
-        "docker_title": "Cattr se ejecuta dentro del contenedor Docker oficial",
+        "docker_title": "TrackVisor se ejecuta dentro del contenedor Docker oficial",
         "docker_subtitle": "No necesita ajustar la configuración de conexión a la base de datos"
       },
       "mail_settings": {

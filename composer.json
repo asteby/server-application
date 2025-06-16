@@ -1,6 +1,6 @@
 {
   "name": "cattr/backend-application",
-  "description": "Backend Application for Cattr",
+  "description": "Backend Application for TrackVisor",
   "license": "SSPL-1.0",
   "type": "project",
   "homepage": "https://cattr.app",

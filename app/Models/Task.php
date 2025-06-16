@@ -256,7 +256,7 @@ class Task extends Model implements AttachmentAble
         return $this->project_id;
     }
 
-    // Below methods are related to Cattr gantt functionality and LaravelAdjacencyList package
+    // Below methods are related to TrackVisor gantt functionality and LaravelAdjacencyList package
     public function getPivotTableName(): string
     {
         return 'tasks_relations';

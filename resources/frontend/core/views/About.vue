@@ -27,7 +27,7 @@
 
                     <div class="about__logo" />
 
-                    <h2>Cattr</h2>
+                    <h2>TrackVisor</h2>
                     <p class="about__version">
                         <skeleton :loading="isLoading" width="80px">{{ appData.version || 'Undefined' }}</skeleton>
                     </p>
