@@ -61,14 +61,7 @@ ENV SENTRY_DSN $SENTRY_DSN
 ENV APP_ENV $APP_ENV
 ENV APP_KEY $APP_KEY
 ENV S6_CMD_WAIT_FOR_SERVICES_MAXTIME=300000
-
-USER root
-RUN apk add --no-cache supervisor
-
 COPY --from=builder /app /app
-COPY docker-entrypoint.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh
-COPY supervisord.conf /etc/supervisord.conf
 
 COPY --chown=root:root .root-fs /
 
@@ -79,6 +72,3 @@ VOLUME /app/storage
 
 EXPOSE 80
 EXPOSE 8080
-
-ENTRYPOINT ["docker-entrypoint.sh"]
-CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
