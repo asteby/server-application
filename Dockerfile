@@ -29,13 +29,6 @@ COPY --chown=www:www . /app
 
 USER www:www
 
-RUN php /usr/bin/composer.phar install \
-    -n \
-    --no-dev \
-    --prefer-dist \
-    --no-progress \
-    --optimize-autoloader
-
 RUN set -x && \
     yarn && \
     yarn prod && \
