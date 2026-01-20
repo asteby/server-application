@@ -23,6 +23,8 @@ COPY --chown=root:root .root-fs/etc/php82 /etc/php82
 
 WORKDIR /app
 
+COPY --chown=www:www composer.json ./
+RUN php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress --optimize-autoloader
 COPY --chown=www:www . /app
 
 USER www:www
