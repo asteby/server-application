@@ -24,7 +24,7 @@ COPY --chown=root:root .root-fs/etc/php82 /etc/php82
 WORKDIR /app
 
 COPY --chown=www:www composer.json ./
-RUN php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress --optimize-autoloader
+RUN COMPOSER_DISABLE_NETWORK=0 COMPOSER_PROCESS_TIMEOUT=0 php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress --optimize-autoloader 2>&1 | tee /dev/stderr; test ${PIPESTATUS[0]} -eq 0
 COPY --chown=www:www . /app
 
 USER www:www
