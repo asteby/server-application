@@ -23,8 +23,8 @@ COPY --chown=root:root .root-fs/etc/php82 /etc/php82
 
 WORKDIR /app
 
-COPY --chown=www:www composer.json ./
-RUN php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress --optimize-autoloader; exit_code=$?; if [ $exit_code -ne 0 ]; then echo "=== COMPOSER FAILED WITH EXIT CODE: $exit_code ==="; cat /tmp/composer-error.log 2>/dev/null || true; fi; exit $exit_code
+COPY --chown=www:www composer.json composer.lock ./
+RUN php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress --optimize-autoloader
 COPY --chown=www:www . /app
 
 USER www:www
