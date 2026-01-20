@@ -23,24 +23,18 @@ COPY --chown=root:root .root-fs/etc/php82 /etc/php82
 
 WORKDIR /app
 
+USER www:www
+
 COPY --chown=www:www composer.json composer.lock ./
 RUN php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress --optimize-autoloader --ignore-platform-reqs --no-scripts
 
-    COPY --chown=www:www . /app
-    
-
-
-
-USER www:www
+COPY --chown=www:www . /app
 
 
 RUN set -x && \
     yarn && \
     yarn prod && \
     rm -rf node_modules
-
-RUN set -x && \
-    php artisan storage:link
 
 FROM registry.git.amazingcat.net/cattr/core/wolfi-os-image/cattr:latest AS runtime
 
