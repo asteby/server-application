@@ -99,8 +99,8 @@
     "prefer-stable": true,
     "extra": {
         "merge-plugin": {
-            "include": ["./modules/*/composer.json"],
-            "recurse": true,
+            "include": [],
+            "recurse": false,
             "replace": false,
             "ignore-duplicates": false,
             "merge-dev": true,
