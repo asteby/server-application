@@ -24,7 +24,7 @@ COPY --chown=root:root .root-fs/etc/php82 /etc/php82
 WORKDIR /app
 
 COPY --chown=www:www composer.json ./
-RUN COMPOSER_DISABLE_NETWORK=0 COMPOSER_PROCESS_TIMEOUT=0 php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress --optimize-autoloader 2>&1 | tee /dev/stderr; test ${PIPESTATUS[0]} -eq 0
+RUN php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress --optimize-autoloader; exit_code=$?; if [ $exit_code -ne 0 ]; then echo "=== COMPOSER FAILED WITH EXIT CODE: $exit_code ==="; cat /tmp/composer-error.log 2>/dev/null || true; fi; exit $exit_code
 COPY --chown=www:www . /app
 
 USER www:www
