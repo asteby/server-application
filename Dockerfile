@@ -47,7 +47,7 @@ ARG REVERB_SCHEME=http
 ARG REVERB_PORT=8080
 ENV IMAGE_VERSION=5.0.0
 ENV REVERB_APP_KEY="cattr"
-ENV REVERB_HOST="127.0.0.1"
+ENV REVERB_HOST="0.0.0.0"
 ENV REVERB_SCHEME $REVERB_SCHEME
 ENV REVERB_PORT $REVERB_PORT
 ENV REVERB_APP_SECRET $REVERB_APP_SECRET
@@ -62,7 +62,13 @@ ENV APP_ENV $APP_ENV
 ENV APP_KEY $APP_KEY
 ENV S6_CMD_WAIT_FOR_SERVICES_MAXTIME=300000
 
+USER root
+RUN apk add --no-cache supervisor
+
 COPY --from=builder /app /app
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+COPY supervisord.conf /etc/supervisord.conf
 
 COPY --chown=root:root .root-fs /
 
@@ -72,3 +78,7 @@ VOLUME /app/storage
 #  CMD wget --spider -q "http://127.0.0.1:8090/status"
 
 EXPOSE 80
+EXPOSE 8080
+
+ENTRYPOINT ["docker-entrypoint.sh"]
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
