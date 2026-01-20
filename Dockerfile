@@ -28,8 +28,10 @@ RUN php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress -
 
     COPY --chown=www:www . /app
     
-    RUN cp .env.example .env && \
-        php /usr/bin/composer.phar dump-autoload --optimize
+
+    RUN ls -la
+    RUN cp .env.example .env
+    RUN php /usr/bin/composer.phar dump-autoload --optimize --no-scripts
 
 USER www:www
 
