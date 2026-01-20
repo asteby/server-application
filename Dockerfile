@@ -25,7 +25,7 @@ WORKDIR /app
 
 USER www:www
 
-COPY --chown=www:www composer.json composer.lock ./
+COPY --chown=www:www composer.json ./
 RUN php /usr/bin/composer.phar install -n --no-dev --prefer-dist --no-progress --optimize-autoloader --ignore-platform-reqs --no-scripts
 
 COPY --chown=www:www . /app
